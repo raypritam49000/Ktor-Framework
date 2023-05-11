@@ -1,0 +1,7 @@
+ktor:
+    application:
+        modules:
+            - api.rest.mongo.com.ApplicationKt.module
+    deployment:
+        port: 9999
+        host: localhost
